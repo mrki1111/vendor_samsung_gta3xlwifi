@@ -478,7 +478,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta3xlwifi/proprietary/vendor/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
     vendor/samsung/gta3xlwifi/proprietary/vendor/lib/libkeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster4.so \
     vendor/samsung/gta3xlwifi/proprietary/vendor/lib/libkeymaster4_1support.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster4_1support.so \
-    vendor/samsung/gta3xlwifi/proprietary/vendor/lib/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_helper.so \
     vendor/samsung/gta3xlwifi/proprietary/vendor/lib/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeystore-engine-wifi-hidl.so \
     vendor/samsung/gta3xlwifi/proprietary/vendor/lib/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeystore-wifi-hidl.so \
     vendor/samsung/gta3xlwifi/proprietary/vendor/lib/libmdf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdf.so \
@@ -626,6 +625,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta3xlwifi/proprietary/vendor/tima_measurement_info:$(TARGET_COPY_OUT_VENDOR)/tima_measurement_info
 
 PRODUCT_PACKAGES += \
+    libkeymaster_helper \
+    libskeymaster4device \
     android.hardware.cas@1.2-service \
     android.hardware.dumpstate@1.1-service-lazy \
     android.hardware.health@2.1-samsung \
