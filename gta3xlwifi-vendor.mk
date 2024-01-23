@@ -625,8 +625,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta3xlwifi/proprietary/vendor/tima_measurement_info:$(TARGET_COPY_OUT_VENDOR)/tima_measurement_info
 
 PRODUCT_PACKAGES += \
-    libkeymaster_helper \
-    libskeymaster4device \
     android.hardware.cas@1.2-service \
     android.hardware.dumpstate@1.1-service-lazy \
     android.hardware.health@2.1-samsung \
